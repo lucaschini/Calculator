@@ -1,2 +1,22 @@
-/* Basics */
+/* Fonts */
+@font-face {
+  font-family: "roboto-400-italic";
+  font-weight: 400;
+  font-style: italic;
+  src: url(RobotoMono-Italic-VariableFont_wght.ttf);
+}
 
+@font-face {
+  font-family: "roboto-600";
+  font-weight: 600;
+  src: url(RobotoMono-VariableFont_wght.ttf);
+}
+
+/* Basics */
+* {
+  margin: 0;
+}
+
+body{
+    height: 100vh;
+}

@@ -36,7 +36,7 @@ body {
 }
 
 .calc-body {
-  width: 35vw;
+  width: 584.141px;
   height: 70vh;
   background-color: #2c3545;
   border-radius: 2rem;
@@ -46,31 +46,61 @@ body {
   align-items: center;
 }
 
-.viewfinder{
-    width: 85%;
-    height: 15%;
-    background-color: #9ccc65;
-    border-radius: 1.5rem;
-    margin: 3rem 0 0 0;
+.viewfinder {
+  width: 85%;
+  height: 15%;
+  background-color: #9ccc65;
+  border-radius: 1rem;
+  margin: 3rem 0 0 0;
 }
 
-.buttons{
-    width: 85%;
-    height: 70%;
-    display: flex;
-    justify-content: space-around;
+.buttons {
+  width: 85%;
+  height: 70%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+  align-items: stretch;
 }
 
-.numbers{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.numbers {
+  width: 70%;
+  max-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.operators{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.numbers div {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
 }
 
+.operators {
+  width: 30%;
+  max-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+.buttons button {
+  font-family: "roboto-600";
+  font-size: 2rem;
+  background-color: #dc5a41;
+  border: none;
+  border-radius: 1rem;
+}
+
+.numbers button{
+  padding: 1.5rem 2rem;
+  margin: 0.5rem;
+}
+
+.operators button {
+  padding: 0.5rem;
+  margin: 0.5rem;
+}

@@ -36,8 +36,8 @@ body {
 }
 
 .calc-body {
-  width: 584.141px;
-  height: 70vh;
+  min-width: 35vw;
+  min-height: 60vh;
   background-color: #2c3545;
   border-radius: 2rem;
 
@@ -49,31 +49,40 @@ body {
 
 .viewfinder {
   width: 85%;
-  height: 15%;
+  height: 13vh;
   background-color: #9ccc65;
   border-radius: 1rem;
-  margin: 3rem 0 0 0;
+  margin: 3vmax;
 }
 
 .buttons {
-  width: 85%;
-  height: 70%;
+  min-width: 85%;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   flex-direction: column;
+  margin: 0 2vmax 2vmax 2vmax;
 }
-.buttons div{
+.buttons div {
   display: flex;
   flex-wrap: nowrap;
 }
 
 .buttons button {
-  padding: 1rem 2rem;
+  padding: 2vh 4vh;
   font-family: "roboto-600";
   font-size: 2rem;
   background-color: #dc5a41;
   border: none;
-  border-radius: 1rem;
-  margin: 1rem;
+  border-radius: 1vmax;
+  margin: 1vmax;
+}
+
+@media screen and (max-width: 600px) {
+  .buttons button {
+    padding: 1vmax 2vmax;
+  }
+  .calc-body{
+    justify-content: center;
+  }
 }

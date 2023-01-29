@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./src/css/favicon.ico" />
+    <!-- Css archives -->
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="calc-body">
+      <div class="viewfinder"></div>
+      <div class="buttons">
+        <button onclick="cls()">C</button>
+        <button onclick="per100()">%</button>
+        <button onclick="square()">x²</button>
+        <button id="operator">+</button>
+
+        <button id="number">7</button>
+        <button id="number">8</button>
+        <button id="number">9</button>
+        <button id="operator">-</button>
+
+        <button id="number">4</button>
+        <button id="number">5</button>
+        <button id="number">6</button>
+        <button id="operator">*</button>
+
+        <button id="number">1</button>
+        <button id="number">2</button>
+        <button id="number">3</button>
+        <button id="operator">/</button>
+
+        <button onclick="pi()">π</button>
+        <button id="number">0</button>
+        <button id="number">.</button>
+        <button onclick="calc(calcStr)">=</button>
+      </div>
+    </div>
+
+    <script src="./src/js/app.js"></script>
+  </body>
+</html>

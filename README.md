@@ -6,7 +6,7 @@ Uma calculadora simples e responsiva desenvolvida com HTML, CSS e JavaScript.
 
 Este projeto é uma calculadora responsiva que permite ao usuário realizar operações matemáticas básicas como adição, subtração, multiplicação e divisão. O design é responsivo, adaptando-se a diferentes tamanhos de tela, desde desktops até dispositivos móveis.
 
-##Funcionalidades
+## Funcionalidades
 
 * Adição, subtração, multiplicação e divisão
 * Interface amigável e responsiva
